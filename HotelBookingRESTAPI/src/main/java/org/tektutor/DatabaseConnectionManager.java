@@ -13,7 +13,7 @@ public class DatabaseConnectionManager {
 			Class.forName("com.mysql.jdbc.Driver").newInstance();
 			connection =
 				DriverManager.getConnection(
-						"jdbc:mysql://localhost/hotel?useSSL=false",
+						"jdbc:mysql://172.17.0.2/hotel?useSSL=false",
 						"root",
 						"root**12345"
 			);
